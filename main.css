@@ -1,0 +1,153 @@
+/* styles come here */
+.container {
+	text-align: center;
+}
+
+.gameBoard , #gameBoard {
+	margin-right: auto;
+	margin-left: auto;
+	width: 630px;
+}
+.edge {
+	height: 30px;
+	width: 40px;
+	background-color: brown;
+	text-align: center;
+	color: white;
+	float: left;
+}
+.bar { 
+	height: 240px;
+	width: 40px;
+	background-color: brown;
+	float: left;
+	position: relative;
+ }
+
+  .midbar {
+ 	height: 40px;
+ 	width: 40px;
+ 	background-color: brown;
+ 	float: left;
+ }
+
+ .room {
+ 	height: 240px;
+	width: 40px;
+	background-color: gray;
+	float: left;
+	position: relative;
+	
+ }
+
+ .topRed {
+ 	background-image: url(images/topRed.png);
+ 	background-size: cover;
+ }
+
+ .topBlue {
+ 	background-image: url(images/topBlue.png);
+ 	background-size: cover;
+ }
+
+ .botBlue {
+ 	background-image: url(images/botBlue.png);
+ 	background-size: cover;
+ }
+
+ .botRed {
+ 	background-image: url(images/botRed.png);
+ 	background-size: cover;
+ }
+
+ .midroom {
+ 	height: 40px;
+ 	width: 240px;
+ 	background-size: cover;
+ 	background-image: url(images/board.png);
+ 	float: left;
+ }
+
+
+
+ .hoverd {
+ 	background: black;
+ }
+
+ .checker {
+ 	height: 38px;
+ 	width: 38px;
+ 	border-radius: 50%;
+ 	background: blue;
+ 	border:solid black 1px;
+
+ }
+
+ .homedChecker {
+ 	height:10px;
+ 	width:38px;
+ 	background:blue;
+ 	border: solid black 1px;
+ }
+
+ .die1 ,.die2 {
+ 	float: left;
+ 	height: 30px;
+ 	width: 30px;
+ 	border-radius: 5px;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	background-size: cover;
+ 	border: solid black 1px;
+ 	margin: 2px;
+ 	margin-left: 10px;
+ 	 }
+
+ .activeDie {
+ 	border-color: #ffff33;
+ 	border-width: 4px;
+ }
+
+ .confirm {
+ 	height: 30px;
+ 	width:60px;
+ 	border-radius: 5px;
+ 	background: green;
+ 	color: white;
+ 	float: right;
+ 	text-align: center;
+ 	display: none;
+ 	margin: 2px;
+ 	padding: 2px;
+ }
+
+ .undo {
+ 	height: 30px;
+ 	width:60px;
+ 	border-radius: 5px;
+ 	background: red;
+ 	color: white;
+ 	float: right;
+ 	text-align: center;
+ 	display: none;
+ 	margin: 2px;
+ 	padding: 2px;
+ }
+
+
+ .red {
+ 	background: red;
+ }
+
+ .break {
+ 	clear: both;
+ }
+
+.bottom {
+	position: absolute;
+	bottom: 0px;
+}
+
+#gameStatusBoard {
+	clear: both;
+}
